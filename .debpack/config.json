@@ -1,0 +1,18 @@
+{
+	"section" : "utils",
+	"priority" : "optional",
+	"maintainer" : {
+		"name" : "Zeke Marffy",
+		"email" : "zmarffy@yahoo.com"
+	},
+	"architecture_all" : true,
+	"depends": [
+		"python3"
+	],
+	"description" : "tar Docker images only if they are changed on build",
+	"build" : {
+		"files" : {
+			"dockerpacker.sh" : "/usr/bin/dockerpacker"
+		}
+	}
+}
